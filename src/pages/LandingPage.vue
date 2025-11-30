@@ -5,7 +5,7 @@
     <div class="left">
       <div class="left-inner">
         <!-- bound import (works reliably with Vite) -->
-        <img class="left-combo" :src="houseImg" alt="House Of E composition" />
+        <img class="left-combo" src="/house-of-e.png" alt="House Of E composition" />
 
     <div class="brand-group">
         <!-- House Of E title -->
@@ -35,18 +35,11 @@
 </template>
 
 <script>
-/* import the image relatively (components -> assets is ../assets/) */
-import house from '../assets/house-of-e.png'
-
 export default {
-  name: 'LandingPage',
-  data() {
-    return {
-      houseImg: house
-    }
-  }
+  name: 'LandingPage'
 }
 </script>
+
 
 <style scoped>
 /* overall two-column layout */
