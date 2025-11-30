@@ -1,10 +1,11 @@
 <template>
-  <!-- Show your Landing Page by default -->
-  <LandingPage />
+  <router-view />
 </template>
 
-<script setup>
-import LandingPage from './pages/LandingPage.vue'
+<script>
+export default {
+  name: 'App'
+}
 </script>
 
 <style>
